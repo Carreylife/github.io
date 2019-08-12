@@ -376,15 +376,15 @@
 
       
         
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. </p>
+          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. </p>
 <p>Typora will give you a seamless experience as both a reader and a writer. Check <a href="https://www.typora.io/" target="_blank" rel="noopener">documention</a> for more info.</p>
-<html>
-  <div class="post-button text-center">
-    <a class="btn" href="html/2019-08-11">阅读全文</a>
-  </div>
-</html>
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/blog/daily/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -523,102 +523,14 @@
 
       
         
-          
-            <h1 id="第一部分html基础知识"><a href="#第一部分html基础知识" class="headerlink" title="第一部分html基础知识"></a>第一部分html基础知识</h1><h2 id="基础知识概念"><a href="#基础知识概念" class="headerlink" title="基础知识概念"></a>基础知识概念</h2><h3 id="1．什么是html"><a href="#1．什么是html" class="headerlink" title="1．什么是html"></a>1．什么是html</h3><p>  &nbsp;超文本标记语言（HyperText Markup Language），是“网页浏览器中看到展示信息的”设计的一种标记语言</p>
-<h3 id="2-Doctype含义"><a href="#2-Doctype含义" class="headerlink" title="2.Doctype含义"></a>2.Doctype含义</h3><ol>
-<li><!DOCTYPE>声明位于位于HTML文档中的第一行，告诉浏览器的解释器用什么文档标准来解析这个文档。</li>
-<li>DOCTYPE书写错误或者不存在会导致文档已兼容模式呈现。<h3 id="3-标准模式和混杂模式"><a href="#3-标准模式和混杂模式" class="headerlink" title="3.标准模式和混杂模式"></a>3.标准模式和混杂模式</h3></li>
-<li>标准模式：html排版和js渲染工作模式都是以该浏览器支持的最高标准运行。</li>
-<li>兼容模式：页面已宽松的向后兼容的方式显示，模拟老浏览器的行为。<h3 id="4-HTML5-为什么只需要写-lt-DOCTYPE-HTML-gt"><a href="#4-HTML5-为什么只需要写-lt-DOCTYPE-HTML-gt" class="headerlink" title="4.HTML5 为什么只需要写 &lt;!DOCTYPE HTML&gt;"></a>4.HTML5 为什么只需要写 <code>&lt;!DOCTYPE HTML&gt;</code></h3>&nbsp;html5不是基于SGML,所以不需要对DTD进行引用，但是它需要对文档类型声明，需要doctype来规范浏览器行为。<h3 id="5-行内元素-块级元素-空元素"><a href="#5-行内元素-块级元素-空元素" class="headerlink" title="5.行内元素-块级元素-空元素"></a>5.行内元素-块级元素-空元素</h3></li>
-<li>css中规定每个元素都有默认的display属性和值</li>
-</ol>
-<ul>
-<li>该元素的属性的值为‘inline’的则为行内元素（如:<code>span,a img,input</code>等）</li>
-<li>该元素的属性的值为‘block’的则为块级元素（<code>div，ul,li h1...p</code>等）</li>
-<li>空（void）元素 <code>&lt;br&gt; &lt;hr&gt; &lt;img&gt; &lt;input&gt; &lt;link&gt; &lt;meta&gt;</code> 等<h3 id="6-html语义化"><a href="#6-html语义化" class="headerlink" title="6.html语义化"></a>6.html语义化</h3></li>
-</ul>
-<ol>
-<li>定义：正确的标签做正确的事情</li>
-<li>为什么要做语义化</li>
-</ol>
-<ul>
-<li>有利于SEO，有利于搜索引擎爬虫更好的理解我们的网页，从而获取更多的有效信息，提升网页的权重。</li>
-<li>在没有CSS的时候能够清晰的看出网页的结构，增强可读性，便于团队开发和维护。</li>
-<li>支持多终端设备的浏览器渲染。</li>
-</ul>
-<ol start="3">
-<li>SEO</li>
-</ol>
-<ul>
-<li>汉译为搜索引擎优化。是一种方式：利用搜索引擎的规则提高网站在有关搜索引擎内的自然排名。</li>
-<li>目的：<br>为网站提供生态式的自我营销解决方案，让其在行业内占据领先地位，获得品牌收益；SEO包含站外SEO和站内SEO两方面；为了从搜索引擎中获得更多的免费流量，从网站结构、内容建设方案、用户互动传播、页面等角度进行合理规划，还会使搜索引擎中显示的网站相关信息对用户来说更具有吸引力。</li>
-<li>优化方式： <ul>
-<li>内部优化：<ol>
-<li>META标签优化：例如：TITLE，KEYWORDS，DESCRIPTION等的优化。</li>
-<li>内部链接的优化，包括相关性链接（Tag标签），锚文本链接，各导航链接，及图片链接。</li>
-<li>网站内容更新：每天保持站内的更新(主要是文章的更新等)。</li>
-</ol>
-</li>
-<li>外部优化：<ol>
-<li>外部链接类别：友情链接、博客、论坛、B2B、新闻、分类信息、贴吧、知道、百科、站群、相关信息网等尽量保持链接的多样性。</li>
-<li>外链运营：每天添加一定数量的外部链接，使关键词排名稳定提升。</li>
-<li>外链选择：与一些和你网站相关性比较高,整体质量比较好的网站交换友情链接,巩固稳定关键词排名。</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="前端跨域请求解决方案"><a href="#前端跨域请求解决方案" class="headerlink" title="前端跨域请求解决方案"></a>前端跨域请求解决方案</h2><h3 id="同源策略"><a href="#同源策略" class="headerlink" title="同源策略"></a>同源策略</h3><ol>
-<li>概念：如果两个页面的协议，端口（如果有指定）和域名都相同，则两个页面具有相同的源。</li>
-<li>目的：保证用户信息安全，防止恶意网站窃取数据，防止cookie共享</li>
-<li>限制范围<ul>
-<li>cookie、localStorage、indexedDB无法读取</li>
-<li>dom 无法获取</li>
-<li>ajax不能发送</li>
-<li>form表单没有限制</li>
-</ul>
-</li>
-<li>如何设置同源策略(host)：document.domain</li>
-<li>不受同源策略限制：<ul>
-<li>页面中的链接，重定向以及表单提交是不会受到同源策略限制的。</li>
-<li>跨域资源的引入是可以的。但是js不能读写加载的内容。如嵌入到页面中的<code>&lt;script src=&quot;...&quot;&gt;&lt;/script&gt;，&lt;img&gt;，&lt;link&gt;，&lt;iframe&gt;</code>等。</li>
-</ul>
-</li>
-</ol>
-<h3 id="跨域"><a href="#跨域" class="headerlink" title="跨域"></a>跨域</h3><ol>
-<li>概念：受到浏览器同源策略的影响，要操作其他源下面的脚本，就需要跨域。<h3 id="Ajax跨域的解决方案"><a href="#Ajax跨域的解决方案" class="headerlink" title="Ajax跨域的解决方案"></a>Ajax跨域的解决方案</h3></li>
-<li>JSONP：网页添加一个<code>&lt;script&gt;</code>元素，向服务器请求jsON数据。服务器收到请求后，将数据放在一个指定名字的回调函数里传回来。</li>
-</ol>
-<ul>
-<li><p>缺点只支持get请求</p>
-</li>
-<li><p>优点简单方便，易理解，兼容性良好</p>
-</li>
-<li><p>如下示例代码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">//动态创建script，用于跨越操作</span><br><span class="line">function creatScriptTag(src) &#123;</span><br><span class="line">  var script = document.createElement(&apos;script&apos;);</span><br><span class="line">  script.setAttribute(&quot;type&quot;,&quot;text/javascript&quot;);</span><br><span class="line">  script.src = src;</span><br><span class="line">  document.body.appendChild(script);</span><br><span class="line">&#125;</span><br><span class="line">// 调用creatScriptTag函数</span><br><span class="line">window.onload = function () &#123;</span><br><span class="line">  var url = &apos;/index.php?jsoncallback=result&apos;;</span><br><span class="line">  creatScriptTag(url);</span><br><span class="line">&#125;</span><br><span class="line">// 定义回调函数</span><br><span class="line">function result (data) &#123;</span><br><span class="line">  console.log(data);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// index.php </span><br><span class="line">&lt;?php</span><br><span class="line">header(&apos;Content-type: application/json&apos;);</span><br><span class="line">//获取回调函数名</span><br><span class="line">$jsoncallback = htmlspecialchars($_REQUEST [&apos;jsoncallback&apos;]);</span><br><span class="line">//取数据</span><br><span class="line">$data = [</span><br><span class="line">  &apos;data&apos;=&gt;&apos;123&apos;,</span><br><span class="line">];</span><br><span class="line">$json_data = json_encode(array(&apos;code&apos;=&gt;&apos;200&apos;,&apos;msg&apos;=&gt;&apos;请求成功&apos;,&apos;data&apos; =&gt; $data),jsON_UNESCAPED_UNICODE);</span><br><span class="line">//输出jsonp格式的数据</span><br><span class="line">echo $jsoncallback .&quot;(&quot; . $json_data . &quot;)&quot;;</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<ol start="2">
-<li><p>WebSocket:是一种通信协议，使用ws://（非加密）和wss://（加密）作为协议前缀。该协议不实行同源政策，只要服务器设置利用origin字段设置白名单，就可以通过它进行跨源通信。</p>
-</li>
-<li><p>CORS（Cross-Origin Resource Sharing）</p>
-<ul>
-<li><p>在请求头信息中增加Origin字段，用来说明此次请求来自那个源（协议+域名+端口），此字段可以设置相应白名单</p>
-</li>
-<li><p>必须设置<code>Access-Control-Allow-Origin</code>字段，值要求是<code>Origin</code>字段的值或者是<em>，</em>的意思是接受任意域名的请求</p>
-</li>
-<li><p>CORS请求默认不发送cookie和http认证信息，如果要发送，要在服务器端指<code>Access-Control-Allow-Credentials: true</code>,并且ajax请求必须打开withCredentials属性</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var xhr = new XMLHttpRequest();</span><br><span class="line">xhr.withCredentials = true;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>如果选择发送cookie,<code>Access-Control-Allow-Origin</code>字段不能设为*，必须指定明确的，与当前网页一致的域名</p>
-</li>
-</ul>
-</li>
-</ol>
-
-          
+          <p>你所不知道的HTML中的奇技淫巧，使劲戳我👇进来观看☺️</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/blog/html/2019-08-11/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
