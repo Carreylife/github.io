@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>个人博客</title>
   
-  
+  <subtitle>热爱生活，热爱技术</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://carreylife.github.io/blog/"/>
-  <updated>2019-08-11T02:31:18.919Z</updated>
+  <updated>2019-08-11T14:42:14.000Z</updated>
   <id>https://carreylife.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://carreylife.github.io/blog/2019/08/11/hello-world/"/>
-    <id>https://carreylife.github.io/blog/2019/08/11/hello-world/</id>
-    <published>2019-08-11T02:31:18.919Z</published>
-    <updated>2019-08-11T02:31:18.919Z</updated>
+    <title>常用操作（Hexo, Typoa）</title>
+    <link href="https://carreylife.github.io/blog/daily/hello-world/"/>
+    <id>https://carreylife.github.io/blog/daily/hello-world/</id>
+    <published>2019-08-12T03:05:14.000Z</published>
+    <updated>2019-08-11T14:42:14.000Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,36 @@
     
     </summary>
     
+      <category term="daily" scheme="https://carreylife.github.io/blog/categories/daily/"/>
+    
+    
+      <category term="daily" scheme="https://carreylife.github.io/blog/tags/daily/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你不知道的HTML</title>
+    <link href="https://carreylife.github.io/blog/html/2019-08-11/"/>
+    <id>https://carreylife.github.io/blog/html/2019-08-11/</id>
+    <published>2019-08-11T14:33:14.000Z</published>
+    <updated>2019-08-11T14:42:14.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;第一部分html基础知识&quot;&gt;&lt;a href=&quot;#第一部分html基础知识&quot; class=&quot;headerlink&quot; title=&quot;第一部分html基础知识&quot;&gt;&lt;/a&gt;第一部分html基础知识&lt;/h1&gt;&lt;h2 id=&quot;基础知识概念&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="html" scheme="https://carreylife.github.io/blog/categories/html/"/>
+    
+    
+      <category term="HTML" scheme="https://carreylife.github.io/blog/tags/HTML/"/>
     
   </entry>
   
