@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[PHP与MYSQL开发入门【上】]]></title>
+    <url>%2Fblog%2Fphp%2F2019-08-14%2F</url>
+    <content type="text"><![CDATA[迈向全栈的必经之路，奋斗不息，努力不止，干就完了💪]]></content>
+      <categories>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[常用操作（Hexo, Typoa）]]></title>
     <url>%2Fblog%2Fdaily%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. Typora will give you a seamless experience as both a reader and a writer. Check documention for more info.]]></content>
@@ -19,7 +31,7 @@
         <category>html</category>
       </categories>
       <tags>
-        <tag>HTML</tag>
+        <tag>html</tag>
       </tags>
   </entry>
 </search>
