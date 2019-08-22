@@ -78,7 +78,7 @@
 <link href="/blog/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
 
 
-  <meta name="keywords" content="html,">
+  <meta name="keywords" content="HTML,">
 
 
 
@@ -97,10 +97,10 @@
 
 
 <meta name="description" content="你所不知道的HTML中的奇技淫巧，使劲戳我👇进来观看☺️">
-<meta name="keywords" content="html">
+<meta name="keywords" content="HTML">
 <meta property="og:type" content="article">
 <meta property="og:title" content="你不知道的HTML">
-<meta property="og:url" content="https://carreylife.github.io/blog/html/2019-08-11/index.html">
+<meta property="og:url" content="https://carreylife.github.io/blog/HTML/2019-08-11/index.html">
 <meta property="og:site_name" content="个人博客">
 <meta property="og:description" content="你所不知道的HTML中的奇技淫巧，使劲戳我👇进来观看☺️">
 <meta property="og:locale" content="zh-Hans">
@@ -136,7 +136,7 @@
 
 
 
-  <link rel="canonical" href="https://carreylife.github.io/blog/html/2019-08-11/">
+  <link rel="canonical" href="https://carreylife.github.io/blog/HTML/2019-08-11/">
 
 
 
@@ -284,7 +284,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://carreylife.github.io/blog/blog/html/2019-08-11/">
+    <link itemprop="mainEntityOfPage" href="https://carreylife.github.io/blog/blog/HTML/2019-08-11/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="shawn">
@@ -348,8 +348,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/blog/categories/html/" itemprop="url" rel="index">
-                    <span itemprop="name">html</span>
+                  <a href="/blog/categories/HTML/" itemprop="url" rel="index">
+                    <span itemprop="name">HTML</span>
                   </a>
                 </span>
 
@@ -365,7 +365,7 @@
 
           
           
-             <span id="/blog/html/2019-08-11/" class="leancloud_visitors" data-flag-title="你不知道的HTML">
+             <span id="/blog/HTML/2019-08-11/" class="leancloud_visitors" data-flag-title="你不知道的HTML">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -440,7 +440,7 @@
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">crossorign</span>=<span class="string">"anonymous"</span> <span class="attr">src</span>=<span class="string">"img.png"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">crossorign</span>=<span class="string">"anonymous"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>通过<code>&lt;img /&gt;</code>标签检测用户网速</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">let</span> s = <span class="built_in">Date</span>.now();</span></span><br><span class="line"><span class="javascript">  <span class="keyword">let</span> image = <span class="keyword">new</span> Image();</span></span><br><span class="line"><span class="javascript">  image.src = <span class="string">"img.png"</span></span></span><br><span class="line"><span class="javascript">  image.onload = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">let</span> e = <span class="built_in">Date</span>.now();</span></span><br><span class="line"><span class="javascript">    <span class="keyword">let</span> w = <span class="number">4</span> / e-s; <span class="comment">// 1-1000</span></span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line">  let s = Date.now();</span><br><span class="line">  let image = new Image();</span><br><span class="line">  image.src = "img.png"</span><br><span class="line">  image.onload = function() &#123;</span><br><span class="line">    let e = Date.now();</span><br><span class="line">    let w = 4 / e-s; // 1-1000</span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>系统性能监控平台、系统bug监控，打点，向后端定时发送模拟get请求<br><a href="https://map.baidu.com/mobile/img/t.gif?newmap=1&amp;module=index&amp;action=index&amp;page=index&amp;third_party=&amp;wise_net=1&amp;is_landing=true&amp;c=224&amp;resid=31&amp;da_ver=2.1.0&amp;t=1565620695926&amp;da_src=indexnearbypg.default.callnaguidebanner&amp;da_act=show" target="_blank" rel="noopener">https://map.baidu.com/mobile/img/t.gif?newmap=1&amp;module=index&amp;action=index&amp;page=index&amp;third_party=&amp;wise_net=1&amp;is_landing=true&amp;c=224&amp;resid=31&amp;da_ver=2.1.0&amp;t=1565620695926&amp;da_src=indexnearbypg.default.callnaguidebanner&amp;da_act=show</a></p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"img.gif?params"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
@@ -555,7 +555,7 @@
       
         <div class="post-tags">
           
-            <a href="/blog/tags/html/" rel="tag"><i class="fa fa-tag"></i> html</a>
+            <a href="/blog/tags/HTML/" rel="tag"><i class="fa fa-tag"></i> HTML</a>
           
         </div>
       
